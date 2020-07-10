@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Mate</title>
+    <link rel="stylesheet" href="./Sources/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Travel Mate</h1>
+        </div>
+    </header>
+    <main>
+        <section class="background">
+            <div class="search-tool">
+                <h2>Where will be your destination?</h2>
+                <form>
+                    <input type="text" id="city" class="city1" placeholder="i.e. Toronto">
+                    <!-- <input type="text" id="checkin" class="checkin1" placeholder="yyyy-mm-dd">
+                    <input type="text" id="checkout" class="checkout1" placeholder="yyyy-mm-dd">
+                    <input type="number" id="guest" class="guest1" min=1 max=10> -->
+                    <button id="button" type="button">Search</button>
+                </form>
+            </div>    
+        </section>
+        <section class="information">
+            <div class="destination">
+            </div>
+            <div class="weather-container">
+                <h3>Current Weather</h3>
+                <div class="weather" id="weather1">
+                </div>
+            </div>
+            <div class="attractions">
+                <h3>Top Attractions</h3>
+                <div class="location" id="location1">
+                </div>
+                <div class="location" id="location2">
+                </div>
+                <div class="location" id="location3">
+                </div>
+            </div>
+            <div class="hotel-info">
+                <h3>Top Accommodations</h3>
+                <div class="hotel">
+                    <div class="accommodation" id="accommodation1">
+                    </div>
+                    <div class="accommodation" id="accommodation2">
+                    </div>
+                    <div class="accommodation" id="accommodation3">
+                    </div> 
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>copyright © Vinh Nhan 2020</p>
+    </footer>
+    <script src="./Sources/JS/jquery-3.5.1.js"></script>  
+    <script src="./Sources/JS/helpers.js"></script>  
+    <script src="./Sources/JS/app.js"></script>
+</body>
+</html>
